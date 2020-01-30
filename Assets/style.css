@@ -7,6 +7,7 @@ body {
     background-image: url(images/spackle.jpg);
     background-size: cover;
     background-repeat: repeat-y;
+    color: silver;
 }
 
 a {
@@ -21,7 +22,6 @@ header {
     background-color: teal;
     color: whitesmoke;
     text-align: center;
-    font-size: 24px;
     padding: 20px;
 }
 
@@ -37,19 +37,83 @@ footer {
     background-color: #666;
     padding: 20px;
     position: fixed;
-    bottom: 0px;
+    bottom: 0;
     width: 100%;
     color: whitesmoke;
     font-size: 10px;
     text-align: center;
     border-top: 6px solid teal;
+    margin-top: 50px;
+}
+
+.inline {
+    background-color: teal;
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+    padding: 10px;
+    width: 200px;
+}
+
+article {
+    background-color: whitesmoke;
+}
+
+.card {
+    max-width: 598px;
+    margin: 20px 20px 20px 40px;
+}
+
+.container {
+    width: 250px;
+    margin: 20px auto;
+}
+.container {
+    width: 250px;
+    background-color: whitesmoke;
+    margin: 20px auto;
+    padding-top: 10px;
+}
+
+.card .card-body .card-title {
+    color: teal;
+}
+
+#myPic {
+    width: 100%;
+}
+
+.card-text {
+    font-size: 26px;
+    color: silver;
+}
+
+.col {
+    width: 200px;
 }
 
 .merry {
     font-family: 'Merriweather', serif;
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 640px) {
+
 }
 
 @media only screen and (min-width: 768px) {
+
+.container {
+    width: 568px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+#myPic {
+    width: 200px;
+    float: left;
+    padding-right: 10px;
+}
 
 header {
     width: 250px;
@@ -62,7 +126,8 @@ nav {
     padding: 26px;
 }
 
+.aboutImg {
+    float: left;
 }
-@media only screen and (min-width: 980px) {
 
 }
